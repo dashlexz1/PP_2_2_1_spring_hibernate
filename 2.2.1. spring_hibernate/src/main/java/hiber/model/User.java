@@ -92,4 +92,12 @@ public class User {
               ", car=" + car +
               '}';
    }
+   public String toString2() {
+      return "User{" +
+              "id=" + id +
+              ", firstName='" + firstName + '\'' +
+              ", lastName='" + lastName + '\'' +
+              ", email='" + email + '}';
+   }
+
 }

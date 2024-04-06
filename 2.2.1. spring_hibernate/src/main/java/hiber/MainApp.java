@@ -28,16 +28,7 @@ public class MainApp {
          if(user.getCar() != null){
             System.out.println(user);
          } else {
-            StringBuilder buffer = new StringBuilder();
-            buffer.append("Id = ");
-            buffer.append(user.getId());
-            buffer.append(" name = ");
-            buffer.append(user.getFirstName());
-            buffer.append(" lastname = ");
-            buffer.append(user.getLastName());
-            buffer.append(" email =");
-            buffer.append(user.getEmail());
-            System.out.println(buffer);
+            System.out.println(user.toString2());
          }
       }
       User byUserCar = userService.getUserByCarModelAndSeries("BMW", 1);
